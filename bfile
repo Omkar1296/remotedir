@@ -1,0 +1,13 @@
+class WhileLoop_Program
+{
+public static void main (String []args)
+{
+int a=20;
+System.out.println("Print 20 in 4 times");
+while (a<=4)
+{
+System.out.println(a);
+a++;
+}
+}
+}
