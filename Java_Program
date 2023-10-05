@@ -7,7 +7,7 @@ public static void main(String[]args)
 System.out.println("Wlcome to Online shopee..");
 Scanner sc=new Scanner(System.in);
 System.out.println("first login the website");
-System.out.println("Enter book name Serch bar");
+System.out.println("Enter book name Search bar");
 String bname=sc.nextLine();
 System.out.println("Click on search Button");
 System.out.println("Click on buy button");
@@ -20,14 +20,14 @@ System.out.println("Enter the price of book");
 int bprice=sc.nextInt();
 if (bprice<=1000)
 {
-int total bkprice=bprice*bquntity;
-Sytem.out.println("total price of book is "+bkprice);
+int totalbkprice=bprice*bquntity;
+System.out.println("Price of book is "+totalbkprice);
 }
 else
 {
-Sytem.out.println("price is out of limit");
+System.out.println("price is out of limit");
 }
-System.out.println("It show the price");
+System.out.println("It show the total price of book");
 }
 else
 {
