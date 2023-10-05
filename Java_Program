@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+class OrderBook
+{
+public static void main(String[]args)
+{
+System.out.println("Wlcome to Online shopee..");
+Scanner sc=new Scanner(System.in);
+System.out.println("first login the website");
+System.out.println("Enter book name Serch bar");
+String bname=sc.nextLine();
+System.out.println("Click on search Button");
+System.out.println("Click on buy button");
+System.out.println("Enter quntity of books");
+int bquntity =sc.nextInt();
+
+if (bquntity<=3)
+{
+System.out.println("It show the price");
+}
+else
+{
+System.out.println("It shows blank page");
+}
+}
+}
+
+
