@@ -16,6 +16,17 @@ int bquntity =sc.nextInt();
 
 if (bquntity<=3)
 {
+System.out.println("Enter the price of book");
+int bprice=sc.nextInt();
+if (bprice<=1000)
+{
+int total bkprice=bprice*bquntity;
+Sytem.out.println("total price of book is "+bkprice);
+}
+else
+{
+Sytem.out.println("price is out of limit");
+}
 System.out.println("It show the price");
 }
 else
